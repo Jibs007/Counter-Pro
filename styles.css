@@ -1,0 +1,51 @@
+body {
+  background-image: url(images/car-race.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#count {
+  font-size: 20px;
+}
+
+#counter {
+  width: 25%;
+  background: linear-gradient(#150811, #380036);
+  margin: 100px auto;
+  text-align: center;
+  height: 40vh;
+  border-radius: 6px;
+  color: white;
+  text-shadow: 0 0 3px black;
+  padding: 10px;
+  max-width: 60%;
+}
+
+button {
+  display: block;
+  padding: 10px 65px;
+  text-align: center;
+  margin: 10px auto;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+}
+
+#increment {
+  background-color: #2b882b;
+}
+
+#decrement {
+  background-color: #a53131;
+}
+
+#save {
+  background-color: azure;
+}
+
+#set {
+  padding: 20px;
+}
